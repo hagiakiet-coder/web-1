@@ -1,0 +1,152 @@
+/* Mobile & tablet */
+@media (max-width: 1023px) {
+    .no-display-mobile-tablet {
+        display: none;
+    }
+    .header-nav-menu-respon {
+        display: block;
+        display: flex;
+    }
+    .wraper {
+        height: 60%;
+    }
+    .main-product-banner-2-container-text-title {
+        font-size: 25px;
+    }
+    .main-product-banner-2-container-text-slogan {
+        font-size: 12px;
+    }
+    .main-product-banner-2-container-text-btn {
+        margin-top: 5px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .no-display-tablet {
+        display: none;
+    }
+    .modal-overlay_form-login {
+        width: 100%;
+    }
+    .modal-overlay_form-login-input {
+        width: 95%;
+    }
+    .main-product-container-item {
+        width: 160px;
+        height: 281px;
+    }
+    .main-product-container-item-title-money {
+        
+        flex-direction: column;
+    }
+    .main-product-container-item-title-money_discount {
+        font-size: 1.3rem;
+    }
+    .main-product-banner-2 {
+        height: 183px;
+    }
+    .main-product-container-item-img {
+        height: 60%;
+    }
+    header {
+        height: 400px;
+    }
+    .wraper {
+        height: 100%;
+    }
+    .main-product-banner-1-container-icon {
+        display: none !important;
+    }
+    .main-product-banner-1-container {
+        text-align: center;
+    }
+    .main-product-container-infor {
+        height: 200px;
+    }
+    
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .no-display-mobile {
+        display: none;
+    }
+    .header-nav-logo_img {
+        width: 124px;
+        height: 40px;
+    }
+    .header-nav-tools_item-card {
+        margin-right: 20px;
+    }
+    .wraper {
+        height: 30%;
+    }
+    .modal-overlay_form-login {
+        width: 100%;
+    }
+    .modal-overlay_form-login-input {
+        width: 90%;
+    }
+    .main-product-container-item {
+        width: 154px;
+        height: 271px;
+    }
+    .main-product-container-item-title-money {
+        display: flex;
+        flex-direction: column;
+    }
+    header {
+        height: 190px;
+    }
+    .wraper {
+        height: 100%;
+    }
+    .main-product-banner-2 {
+        flex-direction: column;
+    }
+    .main-product-banner-2-container {
+        width: 100%;
+    }
+    .main-product-banner-1 {
+        height: 357px;
+        flex-direction: column;
+    }
+    .main-product-banner-1-container {
+        width: 100%;
+    }
+    .main-product-banner-2-container-text {
+        top: 20%;
+        right: 20px;
+    }
+    .main-product-container-infor {
+        padding: 0 10px;
+    }
+    footer {
+        height: 909px; 
+    }
+    .footer-main {
+        flex-direction: column;
+    }
+    .footer-main-item {
+        width: 100%;
+        height: calc(100%/3);
+    }
+    .footer-main-bottom-normal {
+        text-align: center;
+        padding: 0 10px;
+    }
+    .footer-main-logo-with-search {
+        border-left: none;
+        border-right: none;
+        border-top: 1px dashed #333333;
+        border-bottom: 1px dashed #333333;
+    }
+    .footer-main-logo-with-search-text {
+        padding: 0 50px;
+    }
+    .main-product-container-item-add-card-drop {
+        display: none;
+    }
+    
+}

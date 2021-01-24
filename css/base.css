@@ -1,0 +1,75 @@
+:root {
+    /* color */
+    --nav-text-color: rgba(255,255,255,0.8);
+    --while-text-color: #fff;
+    --hover-normal-text-color: #e2ba48;
+    --normal-text-color: #e2ba48;
+    --header-title-text-color: #3c3451;
+    --name-product-text-color: #353535;
+    --product-proper-text-color: #1C1C1C;
+    --price-text-color: #111;
+    --benefit-text-color: #AFAFAF;
+    --footer-text-color: #A4A4A4;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0;
+}
+
+
+body{
+    padding: 0;border: 0;margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 632px;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 371px;
+    background-color: #000000;
+    margin-top: 25px;
+}
+
+.footer-options-activate {
+    color: #E2BA48;
+}
+/* border */
+
+.no-border {
+    border: none;
+}
+
+.no-border-top {
+    border-top: none;
+}
+
+.no-border-right {
+    border-right: none;
+}
+
+.no-border-bottom {
+    border-bottom: none;
+}
+
+.no-border-left {
+    border-left: none;
+}

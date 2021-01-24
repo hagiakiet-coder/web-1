@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/loading.css">
+</head>
+<body>
+    <div class="main-loading">
+        <div class="lds-facebook"><div></div><div></div><div></div>
+    </div>
+    <li style="display: none;" class="lino">Bạn sẽ chuyển sang trang <a href="http://blog.ngockhuong.com"/>blog.ngockhuong.com</a> sau <span id="time">10</span> giây nữa<br />
+        <a href="/" onclick="reload();" id="reloadlink" title="Nhấn vào đây để tải lại trang">Tải lại trang<a>
+    </li>
+    <script type="text/javascript"> 
+        var jgt = 2;
+        document.getElementById('time').innerHTML = jgt;
+        function stime(){document.getElementById('time').innerHTML = jgt;    jgt = jgt - 1;
+            if(jgt == 0){clearInterval(timing); location = './html/home.html';}
+        }
+        var timing = setInterval("stime();",1000);
+    </script>
+</body>
+</html>
