@@ -50,7 +50,7 @@
         height: 60%;
     }
     header {
-        height: 400px;
+        height: 110px;
     }
     .wraper {
         height: 100%;
@@ -63,6 +63,13 @@
     }
     .main-product-container-infor {
         height: 200px;
+    }
+    .main-container-about-container-banner {
+        background-position: right  -30px;
+    }
+    .main-container-about-container-title-body {
+        width: 220px;
+        height: 261px;
     }
     
 }
@@ -148,5 +155,11 @@
     .main-product-container-item-add-card-drop {
         display: none;
     }
-    
+    .main-container-about-container-banner {
+        width: 95%;
+        background-position: -110px 0px;
+    }
+    header {
+        height: 200px;
+    }
 }
